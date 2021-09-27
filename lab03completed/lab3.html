@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head ang="en">
+   <meta charset="utf-8">
+   <title>Exercises for Lab 3</title>
+   <link rel="stylesheet" type="text/css" href="css/my_stylesheet.css" />
+</head>
+<body>
+<header>
+  <h1>Lab 03 – Javascript Values, Types, and Operators</h1>
+</header>
+
+<div class='movingDiv' id='div1'>Part 1:
+  <script>
+    let age = 19;
+    let maxAge = 100;
+    let nSnack = 2;
+    let evSnack = 365 * (maxAge - age) * 2;
+    console.log(evSnack);
+    alert("You will need " + evSnack + " protein bars to last you until the ripe old age of " + maxAge + ".");
+    document.write("You will need " + evSnack + " protein bars to last you until the ripe old age of " + maxAge + ".");
+  </script> 
+</div>
+<div class='movingDiv' id='div1'>Part 2:
+  <script>
+    let ageP = "16";
+    ageP = parseInt(ageP);
+    const legalAge = 18;
+    let responseDrinkYes = "You are over 18! You can legally vote and drink!";
+    let responseDrinkNo = "You are under 18, you cannot legally drink or vote";
+    canDrink = (ageP >= legalAge) ? responseDrinkYes : responseDrinkNo;
+    console.log(canDrink);
+    alert(canDrink);
+    document.write(canDrink + ". ");
+    document.write("British Columbia drinking age is 19*".fontsize(1));
+  </script>
+</div>
+
+<footer>
+  <p><em>Copyright Khurram Shehzad &copy; 2019</em></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head ang="en">
+   <meta charset="utf-8">
+   <title>Exercises for Lab 2</title>
+   <link rel="stylesheet" type="text/css" href="css/my_stylesheet.css" />
+</head>
+<body>
+<header>
+  <h1>Lab 02 – Javascript Values, Types, and Operators</h1>
+</header>
+
+<div class='movingDiv' id='div1'>Part 1:
+  <script type="text/javascript">
+    let t = 30;
+    let f = 20;
+    tf = t / 5 * 9 + 32;
+    ft = (f - 32) * 5 / 9;
+    console.log(t + "°C", "is", tf + "°F");
+    console.log(f + "°F", "is", ft + "°C");
+    alert(tf + "°F");
+    alert(ft + "°C");
+    document.write("The output was displayed as an alert and was also logged to the console.");
+  </script>
+</div>
+<div class='movingDiv' id='div1'>Part 2:
+  <script type="text/javascript">
+    let r = 3;
+    let diameter = 3 * 2;
+    let circ = Math.PI * diameter;
+    let area = Math.PI * (r**2);
+    console.log("The circumference is " + circ, " and the area is " + area);
+    document.write("The circumference is " + circ + " and the area is " + area);
+    document.write("\nThis output was only logged to the console.");
+  </script>
+</div>
+
+<footer>
+  <p><em>Copyright Khurram Shehzad &copy; 2019</em></p>
+</footer>
+</body>
+</html>
